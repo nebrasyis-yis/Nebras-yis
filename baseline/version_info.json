@@ -1,0 +1,266 @@
+{
+  "product": "TG2.0-Pro",
+  "version": "v2.0.7.3",
+  "commit": "bu/integration/tiangong2.0/pro,2e5daa29e4353bdb101aaed9ae98270863e93724",
+  "release_time": "2026-05-15",
+  "x86": [
+    {
+      "module": "benti",
+      "status": "enable",
+      "product": "TG2.0-Pro",
+      "platform": "linux-x86",
+      "version": "v2.0.7.3",
+      "file_name": "TG2.0-Pro_linux-x86_general_v2.0.7.3_20260515_153518.tar.gz",
+      "commit": "bu/project/tiangong2.0/pro,3d4f37a407e60f4213948a65d17a0139eca9e0bc",
+      "install_dir_name": "ros2ws",
+      "install_address": "192.168.41.1",
+      "release_time": "2026-05-15 15:42:16"
+    },
+    {
+      "module": "ota",
+      "status": "enable",
+      "product": "ota",
+      "platform": "linux-aarch64",
+      "version": "40407837",
+      "file_name": "ota_linux-x86_general_40407837_20260205_162551.tar.gz",
+      "commit": "bu/base/ota,4040783757247b3aa9bb457783482bff43a107ea",
+      "install_dir_name": "ota",
+      "install_address": "192.168.41.1",
+      "release_time": "2026-02-05 16:27:09"
+    },
+    {
+      "module": "xlibs",
+      "status": "enable",
+      "product": "xlibs",
+      "platform": "x86_64",
+      "version": "0.0.1",
+      "file_name": "xlibs-x86_64-0.0.1-20260421_134121.tar.gz",
+      "commit": "bu/project/common/xlibs,ca32779d7e25845286de77c015bb6216c0ce6378",
+      "install_dir_name": "xlibs",
+      "install_address": "192.168.41.1",
+      "release_time": "2026-04-21 13:41:21"
+    },
+    {
+      "module": "fastdds",
+      "status": "enable",
+      "product": "fastdds",
+      "platform": "",
+      "version": "0.0.1",
+      "file_name": "dds_0.0.1_20260203_1524.tar.gz",
+      "commit": "UniversalHumanoidPrototypeGroup/OldProjects/mcu_ota,6bf8b6c684c184fd9f10cbb6d10d46f1638f6877",
+      "install_dir_name": "fastdds",
+      "install_address": "192.168.41.1",
+      "release_time": "2025-11-20_15:39:00"
+    },
+    {
+      "module": "remote_diagnose",
+      "status": "enable",
+      "product": "remote_diagnose",
+      "platform": "linux-x86",
+      "version": "1.2.27684",
+      "file_name": "remote-diagnose-v1.2.27684-linux-amd64-humble.tar.gz",
+      "commit": "robot-diagnose,c0efa57bc4a0307442cf0b664b4b2e7e1ccf39a3",
+      "install_dir_name": "remote_diagnose",
+      "install_address": "192.168.41.1",
+      "release_time": "2026-04-28 18:25:23"
+    },
+    {
+      "module": "log_extract",
+      "status": "enable",
+      "product": "robot-log-extract",
+      "platform": "linux-x86",
+      "version": "1.1.24827",
+      "file_name": "log-extract-v1.1.24827-linux-amd64-humble.tar.gz",
+      "commit": "robot-log-extract,c0efa57bc4a0307442cf0b664b4b2e7e1ccf39a3",
+      "install_dir_name": "log_extract",
+      "install_address": "192.168.41.1",
+      "release_time": "2026-04-15 21:05:35"
+    },
+    {
+      "module": "cloud_proxy",
+      "status": "enable",
+      "product": "cloud_proxy",
+      "platform": "linux-x86",
+      "version": "1.0.25451",
+      "file_name": "cloud_proxy_linux-x86_general_1.0.25451_20260420_112737.tar.gz",
+      "commit": "bu/base/cloud_proxy,b269d0764dad5370c0e6f4e158bbc4f0a2f3c06a",
+      "install_dir_name": "cloud_proxy",
+      "install_address": "192.168.41.1",
+      "release_time": "2026-04-20 11:27:37"
+    },
+    {
+      "module": "cloud_service",
+      "status": "enable",
+      "product": "cloud_service",
+      "platform": "linux-x86",
+      "version": "1.0.26213",
+      "file_name": "cloud_service_linux-x86_general_1.0.26213_20260423_111323.tar.gz",
+      "commit": "bu/base/cloud_service,2951be3a5014b06104393e0f67e05c90499a5ed5",
+      "install_dir_name": "cloud_service",
+      "install_address": "192.168.41.1",
+      "release_time": "2026-04-23 11:13:23"
+    },
+    {
+      "module": "remote_debug",
+      "status": "enable",
+      "product": "robot-remote-debug",
+      "platform": "linux-x86",
+      "version": "1.0.24836",
+      "file_name": "remote-debug-v1.0.24836-linux-amd64-humble.tar.gz",
+      "commit": "robot-remote-debug,66a8d9a5",
+      "install_dir_name": "remote_debug",
+      "install_address": "192.168.41.1",
+      "release_time": "2026-04-15 21:33:23"
+    }
+  ],
+  "orin_slam": [
+    {
+      "module": "orbbec_camera",
+      "status": "enable",
+      "product": "OrbbecCamera",
+      "platform": "linux-aarch64",
+      "version": "2.5.5.2",
+      "file_name": "OrbbecCamera_linux-aarch64_general_2.5.5.2_20260424_153959.tar.gz",
+      "commit": "bu/project/common/orbbec_camera,e4dbf6a8845bd3ad7f3613ad44fc90b20cc1447f",
+      "install_dir_name": "orbbec_camera_ros2",
+      "install_address": "192.168.41.3",
+      "release_time": "2026-04-24 15:41:48"
+    },
+    {
+      "module": "livox_ros_driver2",
+      "status": "enable",
+      "product": "livox_ros_driver2",
+      "platform": "linux-x86",
+      "version": "v2.0.0",
+      "file_name": "livox_ros_driver2_linux-orin_ros2-general_v2.0.0_20250718_105822.tar.gz",
+      "commit": "bu/project/common/livox_ros_driver2,c06a41b745b44b86c220791089564d5972a4ad36",
+      "install_dir_name": "livox_ros_driver2",
+      "install_address": "192.168.41.3",
+      "release_time": "2025-07-18 10:59:14"
+    },
+    {
+      "module": "webrtc_server",
+      "status": "enable",
+      "product": "WebrtcServer-tienkung-slam-orin",
+      "platform": "ros2",
+      "version": "v0.0.10",
+      "file_name": "webrtc_server_tienkung_pro_slam_orin_v0.0.10.0_dev_6890293e_20251128144321.tar.gz",
+      "commit": "dev,6890293e7930b18a408b63f9ad3f6fafb65d125b",
+      "install_dir_name": "webrtc_server",
+      "install_address": "192.168.41.3",
+      "release_time": "2025-11-28 14:41:40 "
+    },
+    {
+      "module": "disk_manage",
+      "status": "enable",
+      "product": "disk_manager",
+      "platform": "linux-aarch64",
+      "version": "a1f60e6e",
+      "file_name": "disk_manager_linux-aarch64_general_a1f60e6e_20251126_143959.tar.gz",
+      "commit": "bu/base/disk_manager,a1f60e6edc70be14d882a6fa42dbce10892605ca",
+      "install_dir_name": "disk_manage",
+      "install_address": "192.168.41.3",
+      "release_time": "2025-11-26 14:40:00"
+    }
+  ],
+  "orin_llm": [
+    {
+      "module": "orbbec_camera",
+      "status": "enable",
+      "product": "OrbbecCamera",
+      "platform": "linux-aarch64",
+      "version": "2.5.5.2",
+      "file_name": "OrbbecCamera_linux-aarch64_general_2.5.5.2_20260424_153959.tar.gz",
+      "commit": "bu/project/common/orbbec_camera,e4dbf6a8845bd3ad7f3613ad44fc90b20cc1447f",
+      "install_dir_name": "orbbec_camera_ros2",
+      "install_address": "192.168.41.2",
+      "release_time": "2026-04-24 15:41:48"
+    },
+    {
+      "module": "audio_ros2",
+      "status": "enable",
+      "product": "Voice-Orin",
+      "platform": "ros2",
+      "version": "v2.0.2",
+      "file_name": "Voice-Orin_ros2_general_v2.0.2_20250714_144633.tar.gz",
+      "commit": "bu/project/common/xunfei_dev_socket,c9011ed14843df8b11ae1931a7b59bb4355b526e",
+      "install_dir_name": "audio_ros2",
+      "install_address": "192.168.41.2",
+      "release_time": "2025-07-14 14:46:33"
+    },
+    {
+      "module": "lyre_ros2",
+      "status": "enable",
+      "product": "lyre_ros2",
+      "platform": "aarch64",
+      "version": "2.0.13",
+      "file_name": "lyre_ros2-aarch64-2.0.13-20260428_201111.tar.gz",
+      "commit": "bu/project/common/lyre_ros2,d00f36524268e04e3391d32535ca863019f1b64b",
+      "install_dir_name": "lyre_ros2",
+      "install_address": "192.168.41.2",
+      "release_time": "2026-04-28 20:11:11"
+    },
+    {
+      "module": "webrtc_server",
+      "status": "enable",
+      "product": "WebrtcServer-tienkung-llm-orin",
+      "platform": "ros2",
+      "version": "v0.0.10",
+      "file_name": "webrtc_server_tienkung_pro_llm_orin_v0.0.10.0_dev_6890293e_20251128144315.tar.gz",
+      "commit": "dev,6890293e7930b18a408b63f9ad3f6fafb65d125b",
+      "install_dir_name": "webrtc_server",
+      "install_address": "192.168.41.2",
+      "release_time": "2025-11-28 14:41:40 "
+    },
+    {
+      "module": "disk_manage",
+      "status": "enable",
+      "product": "disk_manager",
+      "platform": "linux-aarch64",
+      "version": "a1f60e6e",
+      "file_name": "disk_manager_linux-aarch64_general_a1f60e6e_20251126_143959.tar.gz",
+      "commit": "bu/base/disk_manager,a1f60e6edc70be14d882a6fa42dbce10892605ca",
+      "install_dir_name": "disk_manage",
+      "install_address": "192.168.41.2",
+      "release_time": "2025-11-26 14:40:00"
+    }
+  ],
+  "firmware": [
+    {
+      "module": "joint-e2c",
+      "status": "enable",
+      "product": "TG2.0-SelfJoint-e2c",
+      "platform": "",
+      "version": "v1.0.9",
+      "file_name": "TG2.0_SelfJoint_e2c_general_v1.0.9_pro_20260508_1830.tar.gz",
+      "commit": "UniversalHumanoidPrototypeGroup/OldProjects/mcu_ota,f9c08a12cd4f1f05b1721f98c33538656be02771",
+      "install_dir_name": "joint-e2c",
+      "install_address": "",
+      "release_time": "2026-05-08_18:30:00"
+    },
+    {
+      "module": "joint-u2c",
+      "status": "enable",
+      "product": "TG2.0-SelfJoint-u2c",
+      "platform": "",
+      "version": "v1.0.9",
+      "file_name": "TG2.0_SelfJoint_u2c_general_v1.0.9_pro_20260424_183600.tar.gz",
+      "commit": "UniversalHumanoidPrototypeGroup/OldProjects/mcu_ota,3372230261cf986e55e15dd0f756ef2ebe0907c8",
+      "install_dir_name": "joint-u2c",
+      "install_address": "",
+      "release_time": "2026-04-24_18:36:00"
+    },
+    {
+      "module": "powerboard",
+      "status": "enable",
+      "product": "TG2.0-PowerBoard_Serial",
+      "platform": "",
+      "version": "v1.0.6",
+      "file_name": "TG2.0_PowerBoard_Serial_general_v1.0.6_20260510_1344.tar.gz",
+      "commit": "UniversalHumanoidPrototypeGroup/OldProjects/mcu_ota,6bf8b6c684c184fd9f10cbb6d10d46f1638f6877",
+      "install_dir_name": "powerboard",
+      "install_address": "",
+      "release_time": "2026-05-10_13:44:00"
+    }
+  ]
+}

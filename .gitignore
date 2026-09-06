@@ -1,0 +1,28 @@
+# ROS build/runtime
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Large archives / firmware
+*.tar.gz
+*.zip
+*.img
+*.iso
+
+# Temporary
+*.tmp
+*.swp
+.DS_Store
